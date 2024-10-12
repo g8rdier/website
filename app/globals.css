@@ -72,3 +72,47 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes slide {
+  0%,
+  10% {
+    transform: translateY(0);
+  }
+  14%,
+  24% {
+    transform: translateY(-32px);
+  }
+  28%,
+  38% {
+    transform: translateY(-64px);
+  }
+  42%,
+  52% {
+    transform: translateY(-96px);
+  }
+  56%,
+  66% {
+    transform: translateY(-128px);
+  }
+  70%,
+  80% {
+    transform: translateY(-160px);
+  }
+  84%,
+  94% {
+    transform: translateY(-192px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.animate-slide {
+  animation: slide 10s ease-in-out infinite;
+}
+
+.animate-slide p {
+  height: 2rem; /* Adjust this value to match your text height */
+  margin: 0;
+  line-height: 2rem; /* Adjust this value to match your text height */
+}

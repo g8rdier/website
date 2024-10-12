@@ -1,15 +1,34 @@
-import Image, { StaticImageData } from 'next/image'
+'use client'
+
+import { gradientStyle } from '@/lib/contants'
 
 interface Props {
-  title: string
-  imageSource: StaticImageData
+  num: string
+  content: string
+  active?: boolean
+  onClick: (num: string) => void
 }
 
-export default function Step({ title, imageSource }: Props) {
+export default function Step({ num, content, active, onClick }: Props) {
   return (
-    <div className="flex flex-col items-center rotate-12">
-      <p className="text-2xl">{title}</p>
-      <Image src={imageSource} alt={title} />
+    <div
+      onClick={() => onClick(num)}
+      className="flex flex-row gap-3 justify-start items-center cursor-pointer"
+    >
+      {active && (
+        <div
+          style={gradientStyle}
+          className="rounded-full w-12 h-12 flex justify-center items-center overflow-hidden"
+        >
+          <p className="text-slate-50 text-2xl ">{num}</p>
+        </div>
+      )}
+      {!active && (
+        <div className="rounded-full w-12 h-12 flex justify-center items-center overflow-hidden bg-slate-300">
+          <p className="text-slate-900 text-2xl ">{num}</p>
+        </div>
+      )}
+      <div className="font-bold">{content}</div>
     </div>
   )
 }
