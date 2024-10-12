@@ -55,7 +55,7 @@ export default function Carousel() {
             </span>
           </h3>
           <p className="text-lg">
-            Applicants save on an avg 10 minutes per application
+            Applicants save on an average of 80% of their time per application
           </p>
 
           <div className="flex flex-col gap-12 mt-12">
