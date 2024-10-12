@@ -1,47 +1,55 @@
 import Image from 'next/image'
 import bg from '../public/images/team/bg2.png'
+import gk from '../public/images/team/gk.jpeg'
+import gt from '../public/images/team/gt.png'
+import ic from '../public/images/team/ic.jpeg'
+import km from '../public/images/team/km.jpeg'
+import lf from '../public/images/team/lf.jpeg'
+import mc from '../public/images/team/mc.jpeg'
+import sb from '../public/images/team/sb.jpeg'
+import wf from '../public/images/team/wf.jpeg'
 import TeamMember from './team-member'
 
 const TEAM_MEMBERS = [
   {
     name: 'Gregor Kobilarov',
     title: 'Co-Founder',
-    imageSrc: '/images/team/gk.jpeg',
+    imageSrc: gk,
   },
   {
     name: 'Lukas Faber',
     title: 'Co-Founder',
-    imageSrc: '/images/team/lf.jpeg',
+    imageSrc: lf,
   },
   {
     name: 'Wael Feriz',
     title: 'Machine Learning Engineer',
-    imageSrc: '/images/team/wf.jpeg',
+    imageSrc: wf,
   },
   {
     name: 'Gaby Tatters',
     title: 'Mobile Designer',
-    imageSrc: '/images/team/gt.png',
+    imageSrc: gt,
   },
   {
     name: 'Mieszko Chowaniec',
     title: 'Backend Engineer',
-    imageSrc: '/images/team/mc.jpeg',
+    imageSrc: mc,
   },
   {
     name: 'Kaouther Mefteh',
     title: 'Frontend Engineer',
-    imageSrc: '/images/team/km.jpeg',
+    imageSrc: km,
   },
   {
     name: 'Shatabdi Biswas',
     title: 'Product Designer',
-    imageSrc: '/images/team/sb.jpeg',
+    imageSrc: sb,
   },
   {
     name: 'Ismail Cherri',
     title: 'Frontend Engineer',
-    imageSrc: '/images/team/ic.jpeg',
+    imageSrc: ic,
   },
 ]
 

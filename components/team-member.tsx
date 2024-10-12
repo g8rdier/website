@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 interface Props {
   name: string
   title: string
-  imageSrc: string
+  imageSrc: StaticImageData
 }
 
 export default function TeamMember({ name, title, imageSrc }: Props) {
