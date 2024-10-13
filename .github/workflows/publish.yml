@@ -34,10 +34,10 @@ jobs:
         run: yarn build
 
       - name: Upload artifact 📡
-        uses: actions/upload-artifact@v4
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: huconwebsite-artifact
-          path: ./out
+          path: out/
 
   deploy:
     environment:
@@ -51,5 +51,3 @@ jobs:
       - name: Publish to GitHub Pages 🚀
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          artifact_name: huconwebsite-artifact
