@@ -13,7 +13,7 @@ export default function Header() {
       />
 
       <div className="z-10 relative flex justify-start items-center px-6 pt-6">
-        <ExportedImage src={logo} alt="Purpose" basePath="/huconwebsite" />
+        <ExportedImage src={logo} alt="Purpose" basePath="/" />
       </div>
       <div className="z-10 flex h-full justify-center relative mt-6">
         <div className="flex flex-col lg:flex-row lg:w-9/12 justify-center items-center gap-16 h-full">

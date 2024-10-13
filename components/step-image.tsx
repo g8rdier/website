@@ -19,7 +19,7 @@ export default function StepImage({ imageSrc, active }: Props) {
         src={imageSrc}
         alt="Success"
         className="object-contain"
-        basePath="/huconwebsite"
+        basePath="/"
       />
     </div>
   )
