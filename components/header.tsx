@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import ExportedImage from 'next-image-export-optimizer'
 import bg from '../public/images/background.png'
 import logo from '../public/images/logo.svg'
 import AppMockup from './app-mockup'
@@ -6,7 +6,7 @@ import AppMockup from './app-mockup'
 export default function Header() {
   return (
     <header className="relative overflow-hidden h-[48rem]">
-      <Image
+      <ExportedImage
         className="absolute object-cover top-0 left-0 w-full h-full"
         src={bg}
         alt="background"
@@ -14,7 +14,7 @@ export default function Header() {
       />
 
       <div className="z-10 relative flex justify-start items-center px-6 pt-6">
-        <Image src={logo} alt="Purpose" priority />
+        <ExportedImage src={logo} alt="Purpose" priority />
       </div>
       <div className="z-10 flex h-full justify-center relative mt-6">
         <div className="flex flex-col lg:flex-row lg:w-9/12 justify-center items-center gap-16 h-full">

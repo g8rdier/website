@@ -1,6 +1,7 @@
 'use client'
 
-import Image, { StaticImageData } from 'next/image'
+import ExportedImage from 'next-image-export-optimizer'
+import { StaticImageData } from 'next/image'
 
 interface Props {
   imageSrc: StaticImageData
@@ -14,7 +15,7 @@ export default function StepImage({ imageSrc, active }: Props) {
 
   return (
     <div className="flex flex-row gap-3 justify-center items-center relative w-full h-full">
-      <Image src={imageSrc} alt="Success" className="object-contain" />
+      <ExportedImage src={imageSrc} alt="Success" className="object-contain" />
     </div>
   )
 }

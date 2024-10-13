@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import ExportedImage from 'next-image-export-optimizer'
 import bg from '../public/images/team/bg2.png'
 import gk from '../public/images/team/gk.jpeg'
 import gt from '../public/images/team/gt.png'
@@ -56,7 +56,7 @@ const TEAM_MEMBERS = [
 export default function Team() {
   return (
     <div className="relative">
-      <Image
+      <ExportedImage
         className="absolute object-cover top-0 left-0 w-full h-full"
         src={bg}
         alt="background"
