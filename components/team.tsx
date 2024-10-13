@@ -60,6 +60,7 @@ export default function Team() {
         className="absolute object-cover top-0 left-0 w-full h-full"
         src={bg}
         alt="background"
+        basePath="/huconwebsite"
       />
       <div className="p-16 z-10 relative flex flex-wrap justify-center lg:justify-start gap-20 lg:w-9/12 lg:mx-auto">
         {TEAM_MEMBERS.map((t) => (

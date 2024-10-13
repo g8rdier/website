@@ -9,6 +9,7 @@ export default function AppMockup() {
         alt="App"
         fill
         className="object-contain"
+        basePath="/huconwebsite"
       />
       <div className="z-10 flex flex-col items-center justify-center text-sm sm:text-lg md:text-2xl text-slate-50 font-bold text-center">
         <div className="absolute top-[27%] sm:top-[20%] lg:top-[27%]">

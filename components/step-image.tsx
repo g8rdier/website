@@ -15,7 +15,12 @@ export default function StepImage({ imageSrc, active }: Props) {
 
   return (
     <div className="flex flex-row gap-3 justify-center items-center relative w-full h-full">
-      <ExportedImage src={imageSrc} alt="Success" className="object-contain" />
+      <ExportedImage
+        src={imageSrc}
+        alt="Success"
+        className="object-contain"
+        basePath="/huconwebsite"
+      />
     </div>
   )
 }
