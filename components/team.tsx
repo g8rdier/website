@@ -62,7 +62,12 @@ export default function Team() {
         alt="background"
         basePath="/huconwebsite"
       />
-      <div className="p-16 z-10 relative flex flex-wrap justify-center lg:justify-start gap-20 lg:w-9/12 lg:mx-auto">
+      <div className="z-10 relative text-center p-8">
+        <h3 className="text-slate-50 font-bold text-xl md:text-4xl">
+          Founding Team
+        </h3>
+      </div>
+      <div className="p-8 md:p-16 z-10 relative grid gap-9 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:max-w-9/12">
         {TEAM_MEMBERS.map((t) => (
           <TeamMember
             name={t.name}

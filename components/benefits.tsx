@@ -1,14 +1,14 @@
 import ExportedImage from 'next-image-export-optimizer'
 import bg from '../public/images/background.png'
-import step1 from '../public/images/benefits/1.png'
-import step2 from '../public/images/benefits/2.png'
-import step3 from '../public/images/benefits/3.png'
-import step4 from '../public/images/benefits/4.png'
+import step1 from '../public/images/benefits/1.svg'
+import step2 from '../public/images/benefits/2.svg'
+import step3 from '../public/images/benefits/3.svg'
+import step4 from '../public/images/benefits/4.svg'
 import ellipse from '../public/images/benefits/ellipse.svg'
 
 export default function Benefits() {
   return (
-    <div className="relative overflow-hidden md:h-[60rem]">
+    <div className="relative overflow-hidden md:h-[68rem]">
       <ExportedImage
         className="absolute object-cover top-0 left-0 w-full h-full"
         src={bg}

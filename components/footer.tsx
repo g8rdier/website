@@ -8,7 +8,7 @@ export default function Footer() {
         <p>Seidl-Kreuz-Weg 9485737 Ismaning</p>
       </div>
       <div>
-        <p className="font-bold text-lg">Registered office of the company:</p>
+        <p className="font-bold text-lg">Registered office of the company</p>
         <p>Ismaning - HRB Munich 292052</p>
         <p>Tax number: 143/173/60143</p>
         <p>VAT ID No.: DE368116002</p>
@@ -16,9 +16,15 @@ export default function Footer() {
         <p>Contact (l.faber@purpose.hr)</p>
       </div>
       <div>
-        <p>field for email to sign up for news concerning ß-phase or launch:</p>
-        <p>“sign up here for updates & exclusive access to our beta phase</p>
-        <p>program, where you can test our application for free.”</p>
+        <p>
+          Feel free to contact us:{' '}
+          <a
+            className="font-bold hover:underline"
+            href="mailto:l.faber@purpose.hr"
+          >
+            l.faber@purpose.hr
+          </a>
+        </p>
       </div>
     </div>
   )

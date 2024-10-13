@@ -23,7 +23,7 @@ export default function Companies() {
 
   return (
     <div className="flex flex-col justify-around items-center p-8 lg:p-0 lg:h-[36rem]">
-      <div className="md:w-9/12 lg:w-6/12 xl:w-4/12 md:text-center">
+      <div className="md:w-9/12 lg:w-6/12 text-center">
         <h3
           style={{
             ...gradientStyle,
