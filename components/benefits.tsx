@@ -1,10 +1,10 @@
 import ExportedImage from 'next-image-export-optimizer'
-import bg from '../public/images/background.png'
 import step1 from '../public/images/benefits/1.svg'
 import step2 from '../public/images/benefits/2.svg'
 import step3 from '../public/images/benefits/3.svg'
 import step4 from '../public/images/benefits/4.svg'
 import ellipse from '../public/images/benefits/ellipse.svg'
+import bg from '../public/images/header/background.png'
 
 export default function Benefits() {
   return (

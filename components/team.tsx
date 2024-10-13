@@ -38,7 +38,7 @@ const TEAM_MEMBERS = [
   },
   {
     name: 'Kaouther Mefteh',
-    title: 'Frontend Engineer',
+    title: 'Mobile Engineer',
     imageSrc: km,
   },
   {
