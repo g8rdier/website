@@ -1,3 +1,4 @@
+import { basePath } from '@/next.config.mjs'
 import ExportedImage from 'next-image-export-optimizer'
 import { StaticImageData } from 'next/image'
 
@@ -11,7 +12,7 @@ export default function TeamMember({ name, title, imageSrc }: Props) {
   return (
     <div className="flex flex-col justify-start items-center gap-4">
       <div className="rounded-full overflow-hidden relative w-40 h-40 border-white border-1">
-        <ExportedImage src={imageSrc} alt={name} fill basePath="/website" />
+        <ExportedImage src={imageSrc} alt={name} fill basePath={basePath} />
       </div>
       <div className="flex flex-col justify-center items-center text-center">
         <p className="text-slate-50 text-2xl">{name}</p>

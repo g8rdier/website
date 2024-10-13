@@ -1,8 +1,10 @@
+const isProd = process.env.NODE_ENV === 'production'
+
 /** @type {import('next-image-export-optimizer').nextConfig} */
 const nextConfig = {
   output: 'export',
   reactStrictMode: true,
-  basePath: '/website',
+  basePath: isProd ? '/website' : '',
   images: {
     loader: 'custom',
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
@@ -20,4 +22,5 @@ const nextConfig = {
   },
 }
 
+export const { basePath } = nextConfig
 export default nextConfig

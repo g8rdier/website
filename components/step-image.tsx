@@ -1,5 +1,6 @@
 'use client'
 
+import { basePath } from '@/next.config.mjs'
 import ExportedImage from 'next-image-export-optimizer'
 import { StaticImageData } from 'next/image'
 
@@ -19,7 +20,7 @@ export default function StepImage({ imageSrc, active }: Props) {
         src={imageSrc}
         alt="Success"
         className="object-contain"
-        basePath="/website"
+        basePath={basePath}
       />
     </div>
   )

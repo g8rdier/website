@@ -1,5 +1,6 @@
+import { basePath } from '@/next.config.mjs'
+import appMockup from '@/public/images/app-mockup/app.png'
 import ExportedImage from 'next-image-export-optimizer'
-import appMockup from '../public/images/app-mockup/app.png'
 
 export default function AppMockup() {
   return (
@@ -9,7 +10,7 @@ export default function AppMockup() {
         alt="App"
         fill
         className="object-contain"
-        basePath="/website"
+        basePath={basePath}
       />
       <div className="z-10 flex flex-col items-center justify-center text-sm sm:text-lg md:text-2xl text-slate-50 font-bold text-center">
         <div className="absolute top-[27%] sm:top-[20%] lg:top-[27%]">

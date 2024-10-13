@@ -1,10 +1,10 @@
 'use client'
 
 import { gradientStyle } from '@/lib/contants'
+import step1 from '@/public/images/steps/step1.png'
+import step2 from '@/public/images/steps/step2.gif'
+import step3 from '@/public/images/steps/step3.gif'
 import { useState } from 'react'
-import step1 from '../public/images/steps/step1.png'
-import step2 from '../public/images/steps/step2.gif'
-import step3 from '../public/images/steps/step3.gif'
 import Step from './step'
 import StepImage from './step-image'
 

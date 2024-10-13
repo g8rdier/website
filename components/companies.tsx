@@ -1,13 +1,14 @@
 import { gradientStyle } from '@/lib/contants'
+import { basePath } from '@/next.config.mjs'
+import logo1 from '@/public/images/companies/1.svg'
+import logo2 from '@/public/images/companies/2.svg'
+import logo3 from '@/public/images/companies/3.svg'
+import logo4 from '@/public/images/companies/4.svg'
+import logo5 from '@/public/images/companies/5.svg'
+import logo6 from '@/public/images/companies/6.svg'
+import logo7 from '@/public/images/companies/7.svg'
+import logo8 from '@/public/images/companies/8.svg'
 import ExportedImage from 'next-image-export-optimizer'
-import logo1 from '../public/images/companies/1.svg'
-import logo2 from '../public/images/companies/2.svg'
-import logo3 from '../public/images/companies/3.svg'
-import logo4 from '../public/images/companies/4.svg'
-import logo5 from '../public/images/companies/5.svg'
-import logo6 from '../public/images/companies/6.svg'
-import logo7 from '../public/images/companies/7.svg'
-import logo8 from '../public/images/companies/8.svg'
 
 export default function Companies() {
   const logos = [
@@ -37,7 +38,7 @@ export default function Companies() {
       <div className="flex flex-col lg:flex-row justify-around items-center gap-12 w-full lg:w-9/12 mt-12 lg:mt-0">
         {logos.map((logo, index) => (
           <div key={index}>
-            <ExportedImage src={logo.src} alt={logo.alt} basePath="/website" />
+            <ExportedImage src={logo.src} alt={logo.alt} basePath={basePath} />
           </div>
         ))}
       </div>
