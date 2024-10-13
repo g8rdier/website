@@ -60,7 +60,7 @@ export default function Team() {
         className="absolute object-cover top-0 left-0 w-full h-full"
         src={bg}
         alt="background"
-        basePath="/"
+        basePath="/website"
       />
       <div className="z-10 relative text-center p-8">
         <h3 className="text-slate-50 font-bold text-xl md:text-4xl">

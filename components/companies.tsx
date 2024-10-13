@@ -37,7 +37,7 @@ export default function Companies() {
       <div className="flex flex-col lg:flex-row justify-around items-center gap-12 w-full lg:w-9/12 mt-12 lg:mt-0">
         {logos.map((logo, index) => (
           <div key={index}>
-            <ExportedImage src={logo.src} alt={logo.alt} basePath="/" />
+            <ExportedImage src={logo.src} alt={logo.alt} basePath="/website" />
           </div>
         ))}
       </div>
