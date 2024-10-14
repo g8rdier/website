@@ -55,7 +55,7 @@ export default function Carousel() {
             </span>
           </h3>
           <p className="text-lg">
-            Applicants save on an average of 80% of their time per application
+            Our CV interpretation and matching technology reduces the time needed to apply for a job by up to 80%.
           </p>
 
           <div className="flex flex-col gap-12 mt-12">
