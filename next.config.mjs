@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
   output: 'export',
   reactStrictMode: true,
-  basePath: isProd ? '/website' : '',
+  basePath: isProd ? '' : '',
   images: {
     loader: 'custom',
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
