@@ -5,7 +5,8 @@ export default function Footer() {
         <p className="font-bold text-lg">Imprint & Contact</p>
         <p>Imprint of legal entity</p>
         <p>Purpose UG (limited liability)</p>
-        <p>Seidl-Kreuz-Weg 9485737 Ismaning</p>
+        <p>Seidl-Kreuz-Weg 94</p>
+        <p>85737 Ismaning</p>
       </div>
       <div>
         <p className="font-bold text-lg">Registered office of the company</p>
@@ -13,7 +14,6 @@ export default function Footer() {
         <p>Tax number: 143/173/60143</p>
         <p>VAT ID No.: DE368116002</p>
         <p>Managing Director: Lukas Faber</p>
-        <p>Contact (l.faber@purpose.hr)</p>
       </div>
       <div>
         <p>
