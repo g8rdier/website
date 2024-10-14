@@ -3,7 +3,6 @@ export default function Footer() {
     <div className="flex flex-col lg:flex-row justify-start items-start p-24 gap-32 bg-slate-800 text-slate-50">
       <div>
         <p className="font-bold text-lg">Imprint & Contact</p>
-        <p>Imprint of legal entity</p>
         <p>Purpose UG (limited liability)</p>
         <p>Seidl-Kreuz-Weg 94</p>
         <p>85737 Ismaning</p>
