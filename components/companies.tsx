@@ -12,7 +12,6 @@ import ExportedImage from 'next-image-export-optimizer'
 
 export default function Companies() {
   const logos = [
-    { src: logo1, alt: 'Helmholtz Munich' },
     { src: logo2, alt: 'Colliers' },
     { src: logo3, alt: 'IAC' },
     { src: logo4, alt: 'JLL' },
